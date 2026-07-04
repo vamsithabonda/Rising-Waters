@@ -1,4 +1,4 @@
-# 🌊 Flood Prediction Using Machine Learning
+# 🌊 Rising Waters – Flood Prediction Using Machine Learning
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-Flood Prediction Using Machine Learning is a web-based application that predicts the possibility of floods based on weather and environmental parameters. The project uses machine learning algorithms to analyze the input data and provide accurate flood risk predictions through a simple Flask web application.
+Rising Waters – Flood Prediction Using Machine Learning is a web-based application that predicts the possibility of floods based on weather and environmental parameters. The project uses machine learning algorithms to analyze the input data and provide accurate flood risk predictions through a simple Flask web application.
 
 
 
