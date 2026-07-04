@@ -168,8 +168,6 @@ The following algorithms were trained and evaluated:
 
 | Model | Accuracy |
 
-|--------|----------|
-
 | Decision Tree | 100% |
 
 | Random Forest | 100% |
@@ -198,7 +196,7 @@ The best-performing model was used in the Flask application for prediction.
 
 ```bash
 
-git clone <your-github-repository-link>
+git clone <https://github.com/vamsithabonda/Rising-Waters.git>
 
 ```
 
