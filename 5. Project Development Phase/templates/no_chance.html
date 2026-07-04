@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Flood</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 style="color:green;">✅ No Flood Chance</h1>
+
+    <h2>The area is currently considered safe.</h2>
+
+    <p>
+        Based on the entered weather data,
+        the model predicts no flood risk.
+    </p>
+
+    <a href="/Predict">
+        <button class="btn">Predict Again</button>
+    </a>
+
+</div>
+
+</body>
+</html>
