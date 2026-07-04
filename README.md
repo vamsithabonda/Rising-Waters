@@ -168,8 +168,6 @@ The following algorithms were trained and evaluated:
 
 | Model | Accuracy |
 
-|--------|----------|
-
 | Decision Tree | 100% |
 
 | Random Forest | 100% |
