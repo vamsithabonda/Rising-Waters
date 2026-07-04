@@ -196,7 +196,7 @@ The best-performing model was used in the Flask application for prediction.
 
 ```bash
 
-git clone <https://github.com/vamsithabonda/Rising-Waters.git>
+git clone https://github.com/vamsithabonda/Rising-Waters.git
 
 ```
 
