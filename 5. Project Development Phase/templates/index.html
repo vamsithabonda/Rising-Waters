@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flood Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌊 Flood Prediction</h1>
+
+    <form action="/predict" method="POST">
+
+        <div class="form-group">
+    <label>🌡️ Temperature</label>
+    <input type="number" step="any" name="temp" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>💧 Humidity</label>
+    <input type="number" step="any" name="humidity" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>☁️ Cloud Cover</label>
+    <input type="number" step="any" name="cloud" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🌧️ Annual Rainfall</label>
+    <input type="number" step="any" name="annual" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🌦️ Jan-Feb Rainfall</label>
+    <input type="number" step="any" name="janfeb" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🌤️ Mar-May Rainfall</label>
+    <input type="number" step="any" name="marmay" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🌧️ Jun-Sep Rainfall</label>
+    <input type="number" step="any" name="junsep" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🍂 Oct-Dec Rainfall</label>
+    <input type="number" step="any" name="octdec" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>🌧️ Average June Rainfall</label>
+    <input type="number" step="any" name="avgjune" placeholder="Enter value" required>
+</div>
+
+<div class="form-group">
+    <label>📊 Sub Rainfall</label>
+    <input type="number" step="any" name="sub" placeholder="Enter value" required>
+</div>
+
+        <button type="submit" class="btn">
+            Predict Flood
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
